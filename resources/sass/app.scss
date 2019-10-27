@@ -1,15 +1,15 @@
 @font-face {
     font-family: fira-sans;
-    src: url("assets/fonts/FiraSans-Regular.otf")
+    src: url("../../public/assets/fonts/FiraSans-Regular.otf")
 }
 
 @font-face {
     font-family: fira-sans-italic;
-    src: url("assets/fonts/FiraSans-ExtraLightItalic.ttf")
+    src: url("../../public/assets/fonts/FiraSans-ExtraLightItalic.ttf")
 }
 
 body, html {
-    font-family: fira-sans;
+    font-family: fira-sans, sans-serif;
     margin: 0px;
     padding: 0px;
     font-size: 62.5%;
@@ -32,7 +32,7 @@ a {
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("assets/imgs/bannerRussia.jpg");
+    background-image: url("../../public/assets/imgs/bannerRussia.jpg");
     background-size: cover;
     background-color: #fff;
     background-position: center center;
@@ -41,7 +41,7 @@ a {
 
 ul {
     padding: 0px;
-    margin: 0 px;
+    margin: 0px;
 }
 li {
     list-style: none;
@@ -96,7 +96,6 @@ li {
 .logo-icon img {
     margin-top: 8px;
     max-width: 100%;
-    max-height: auto;
 }
 
 
@@ -115,7 +114,7 @@ li {
 
 .chevron-down-icon {
     position: relative;
-    width: 100% - 10px;
+    width: 100%;
     height: 2.5rem;
     margin-top: -4.5rem;
     padding-left: 1rem;
@@ -384,11 +383,11 @@ footer .line-1 > div:nth-child(2) li:last-child {
 footer .line-1 img {
     width: 100%;
     height: auto;
-    content:url("assets/imgs/bot_logo.PNG");
+    content:url("../../public/assets/imgs/bot_logo.PNG");
 }
 
 footer .line-1 img:hover {
-    content:url("assets/imgs/bot_logo_hover.PNG");
+    content:url("../../public/assets/imgs/bot_logo_hover.PNG");
 }
 
 footer .line-1 > div:first-child {
@@ -420,7 +419,7 @@ footer .line-2 {
     width: 100%;
     color: #707070;
     margin-top: 10px;
-    font-family: "Helvetica Neue",Helvetica,Arial,Sans;
+    font-family: "Helvetica Neue", vHelvetica, vArial, Sans, sans-serif;
     opacity: .5;
     font-size: 1rem;
     letter-spacing: .1em;
