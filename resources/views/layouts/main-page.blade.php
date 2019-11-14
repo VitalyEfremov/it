@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <title>Main page</title>
-    <link rel="stylesheet" href="../../public/css/app.css">
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
@@ -36,7 +36,7 @@
     <nav>
         <ul class="top-nav-bar">
             <li class="logo-icon">
-                <a href="index.html"><img src="../../../public/assets/imgs/logo_top.png"></a>
+                <a href="#"><img alt="Картинка" src="/public/assets/imgs/logo_top.png"></a>
             </li>
             <li class="site-pages">
                 <div><a href="#">О НАС</a></div>
@@ -47,10 +47,10 @@
             </li>
             <li id="top-right-icons">
                 <div class="drop-menu-icon">
-                    <a href="#" onclick="dropMenu()"><img src="../../../public/assets/icons/dropdown-menu-icon.png"></a>
+                    <a href="#" onclick="dropMenu()"><img alt="Картинка" src="../../../public/assets/icons/dropdown-menu-icon.png"></a>
                 </div>
                 <div class="search-icon">
-                    <a href="#"><img src="../../../public/assets/icons/serach-icon.png"></a>
+                    <a href="#"><img alt="Картинка" src="../../../public/assets/icons/serach-icon.png"></a>
                 </div>
             </li>
         </ul>
@@ -88,7 +88,7 @@
                 <ul>
                     <li><a href="#">Свяжитесь с нами</a></li>
                     <li><a href="#">Эланко в мире</a></li>
-                    <li><a href="index.html"><img></a></li>
+                    <li><a href="#"><img alt="Картинка" ></a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>

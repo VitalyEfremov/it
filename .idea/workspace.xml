@@ -2,8 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b37abe5-4370-4943-a064-62471f4a5d8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/distributors/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/distributors/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/distributors/update.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/it.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/it.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Distributors.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Distributors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_21_064611_create_distributors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_10_21_064611_create_distributors_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X05ebf0da0f39a46d1e252a61dc07bf02.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X0cd07f449a82763fbed5c45c0ccc32e9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2b9caaed0d4ac81aab89a319d1aa1b78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3bfa3aa18effa50fd94a62c26634f0fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X414693a9c8f7687b2f4f67ab50c8da4d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4c4459ca2c7796e0fa15f8a545371b7e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X511093dfb6366d50752c3dcf13ac595b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X5ce1834d6e99b683bd28b3c948b45018.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6471de6b9e3820dd69935782569c1f25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X73cc975abd0655629fe9f287c6316522.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X8738865f9d4786e9681ac371d0d4c39e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X96c724710bc3c4cbe458efc2f54d05cd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9f551f857ea8c464dba16926e37bb062.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa3a0eeb7a26aa942c1fd97ec0c82afaa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xc76f0028f313ef7ff6ba80e6e48fda98.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xce3acb17dbad6c1dd63cf0a5c2e1585f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd1abe1c8b9cbef4744c4f791724a15da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xdf6095f9339d930711f097cd2865c83e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe1a18d98fbc79b8bd6ab41b6ae1e5d3b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe4f1f83b999b1eedd5ee9f3516a1a24f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +160,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1SV1CVlqFlXTaFlP2nbrTz8pdna" />
@@ -126,7 +170,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modules/php/PHP_7.3-x64/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/distributors" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,9 +179,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\OSPanel\domains\it\resources\views\distributors" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OpenServer\OSPanel\domains\it\resources\views\layouts" />
       <recent name="C:\OpenServer\OSPanel\domains\it\public" />
@@ -177,7 +225,8 @@
       <updated>1571633821541</updated>
       <workItem from="1571633823004" duration="8338000" />
       <workItem from="1573309873871" duration="1880000" />
-      <workItem from="1573368465707" duration="1375000" />
+      <workItem from="1573368465707" duration="17629000" />
+      <workItem from="1573739374242" duration="21087000" />
     </task>
     <servers />
   </component>

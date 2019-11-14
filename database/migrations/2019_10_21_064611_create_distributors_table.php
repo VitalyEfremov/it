@@ -14,13 +14,17 @@ class CreateDistributorsTable extends Migration
     public function up()
     {
         Schema::create('distributors', function (Blueprint $table) {
-            $table->string('name');
-            $table->binary('logo');
+            $table->increments('id');
+            $table->string('name')->unique();
+            $table->binary('logo')->nullable();
             $table->string('phone');
             $table->string('site');
+            $table->unsignedBigInteger('author_id');
             $table->timestamps();
 
-            $table->primary('name');
+            $table->foreign('author_id')->references('id')
+                ->on('users');
+
         });
     }
 

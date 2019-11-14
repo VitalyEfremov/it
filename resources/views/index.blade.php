@@ -5,12 +5,12 @@
         <div class="bg-image"></div>
         <div class="text-center">
             <div class="logo">
-                <img src="../../public/assets/imgs/elanco__1_.svg">
+                <img src="{{ asset('imgs/elanco__1_.svg') }}">
             </div>
             <h1 class="h1-top">Обогащая жизнь</h1>
         </div>
         <div class="chevron-down-icon">
-            <a href="#main"><img src="../../public/assets/icons/chevron-down-icon.png"></a>
+            <a href="#main"><img src="{{ asset('icons/chevron-down-icon.png') }}"></a>
         </div>
     </div>
     <div class="main-1-block" id="main">
