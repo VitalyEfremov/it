@@ -8,6 +8,12 @@
         </div>
     @endif
 
+    @if(Session::has('result_bad'))
+        <div class="alert alert-warning">
+            {{Session::pull('result_bad')}}
+        </div>
+    @endif
+
     <div class="container">
         <table class="table">
             <thead>

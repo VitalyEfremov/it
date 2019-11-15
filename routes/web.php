@@ -44,17 +44,18 @@ Route::group(['prefix' => 'distributors', 'as' => 'distributors::'], function() 
         Route::get('{distributor}/edit', [
             'as' => 'edit',
             'uses' => 'DistributorsController@edit',
-            'middleware' => 'auth'
+            'middleware' => ['auth', 'editor.check']
         ]);
         Route::put('{distributor}/update', [
             'as' => 'update',
             'uses' => 'DistributorsController@update',
-            'middleware' => 'auth'
+            'middleware' => ['auth', 'editor.check']
         ]);
         Route::get('{distributor}/delete', [
             'as' => 'delete',
             'uses' => 'DistributorsController@destroy',
-            'middleware' => 'auth'
+            'middleware' => ['auth', 'editor.check']
+
         ]);
     });
 });
