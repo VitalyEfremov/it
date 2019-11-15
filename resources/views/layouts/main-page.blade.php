@@ -36,7 +36,7 @@
     <nav>
         <ul class="top-nav-bar">
             <li class="logo-icon">
-                <a href="#"><img alt="Картинка" src="/public/assets/imgs/logo_top.png"></a>
+                <a href="#"><img alt="Картинка" src="/assets/imgs/logo_top.png"></a>
             </li>
             <li class="site-pages">
                 <div><a href="#">О НАС</a></div>
@@ -47,10 +47,10 @@
             </li>
             <li id="top-right-icons">
                 <div class="drop-menu-icon">
-                    <a href="#" onclick="dropMenu()"><img alt="Картинка" src="../../../public/assets/icons/dropdown-menu-icon.png"></a>
+                    <a href="#" onclick="dropMenu()"><img alt="Картинка" src="/assets/icons/dropdown-menu-icon.png"></a>
                 </div>
                 <div class="search-icon">
-                    <a href="#"><img alt="Картинка" src="../../../public/assets/icons/serach-icon.png"></a>
+                    <a href="#"><img alt="Картинка" src="/assets/icons/serach-icon.png"></a>
                 </div>
             </li>
         </ul>

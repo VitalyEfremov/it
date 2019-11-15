@@ -5,12 +5,12 @@
         <div class="bg-image"></div>
         <div class="text-center">
             <div class="logo">
-                <img src="{{ asset('imgs/elanco__1_.svg') }}">
+                <img src="/assets/imgs/elanco__1_.svg">
             </div>
             <h1 class="h1-top">Обогащая жизнь</h1>
         </div>
         <div class="chevron-down-icon">
-            <a href="#main"><img src="{{ asset('icons/chevron-down-icon.png') }}"></a>
+            <a href="#main"><img src="assets/icons/chevron-down-icon.png"></a>
         </div>
     </div>
     <div class="main-1-block" id="main">
@@ -61,7 +61,7 @@
             <br>
             <br>
             <div class="tablet-image">
-                <img src="../../public/assets/imgs/mission.png">
+                <img src="/assets/imgs/mission.png">
             </div>
             <div class="mission-and-vision">
                 <span>Наша миссия:</span>
@@ -94,7 +94,7 @@
     </div>
     <div class="info-columns">
         <div class="column">
-            <a href="#"><img src="../../public/assets/imgs/info-dog-image.jpg"></a>
+            <a href="#"><img src="/assets/imgs/info-dog-image.jpg"></a>
             <h3 class="info-header">
                 Пусть ваш питомец будет здоровым с Мильбемакс®
             </h3>
@@ -111,7 +111,7 @@
             </p>
         </div>
         <div class="column">
-            <a href="#"><img src="../../public/assets/imgs/salmonela.png"></a>
+            <a href="#"><img src="/assets/imgs/salmonela.png"></a>
             <h3 class="info-header">
                 Сальмонелла360°
             </h3>
@@ -128,7 +128,7 @@
             </p>
         </div>
         <div class="column">
-            <a href="#"><img src="../../public/assets/imgs/info-logo.png"></a>
+            <a href="#"><img src="/assets/imgs/info-logo.png"></a>
             <h3 class="info-header">
                 Новости Эланко
             </h3>
