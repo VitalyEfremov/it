@@ -88,7 +88,12 @@
                 <ul>
                     <li><a href="#">Свяжитесь с нами</a></li>
                     <li><a href="#">Эланко в мире</a></li>
-                    <li><a href="#"><img alt="Картинка" ></a></li>
+                    <li style="width: 90px;">
+                        <a href="#"><img style="
+                        background-image: url('/assets/imgs/bot_logo.PNG');
+                        width: 100%;
+                        height: 60px;">
+                        </a></li>
                 </ul>
             </div>
             <div class="clearfix"></div>
