@@ -23,7 +23,7 @@
         <div class="main-1-buttons">
             <ul>
                 <li><a href="#">НАШИ ПРОДУКТЫ</a></li>
-                <li><a href="/distributors">НАШИ ДИСТРИБЬЮТЕРЫ</a></li>
+                <li><a href="">НАШИ ДИСТРИБЬЮТЕРЫ</a></li>
                 <li><a href="#">КАРЬЕРА В ЭЛАНКО</a></li>
                 <li><a href="#">НАШИ КОНТРАКТЫ</a></li>
             </ul>

@@ -41,7 +41,7 @@
             <li class="site-pages">
                 <div><a href="#">О НАС</a></div>
                 <div><a href="#">НАШИ ПРОДУКТЫ</a></div>
-                <div><a href="#">НАШИ ДИСТРИБЬЮТЕРЫ</a></div>
+                <div><a href="{{ route('distributors::index') }}">НАШИ ДИСТРИБЬЮТЕРЫ</a></div>
                 <div><a href="#">КАРЬЕРА В ЭЛАНКО</a></div>
                 <div><a href="#">НАШИ КОНТАКТЫ</a></div>
             </li>
