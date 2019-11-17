@@ -41,6 +41,11 @@ Route::group(['prefix' => 'distributors', 'as' => 'distributors::'], function() 
             'uses' => 'DistributorsController@store',
             'middleware' => 'auth'
         ]);
+        Route::post('store/ajax', [
+            'as' => 'store.ajax',
+            'uses' => 'DistributorsController@storeAjax',
+            'middleware' => 'auth'
+        ]);
         Route::get('{distributor}/edit', [
             'as' => 'edit',
             'uses' => 'DistributorsController@edit',

@@ -6,6 +6,7 @@ use App\Distributors;
 use App\Http\Requests\DistributorStoreRequest;
 use App\Http\Requests\DistributorUpdateRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class DistributorsController extends Controller
 {
@@ -19,7 +20,8 @@ class DistributorsController extends Controller
     public function create()
     {
         $distributor = new Distributors();
-        return view('distributors.create', compact('distributor'));
+        $Distributors = Distributors::all();
+        return view('distributors.create', ['distributor' => $distributor, 'distributors' => $Distributors]);
     }
 
     public function store(DistributorStoreRequest $request)
@@ -30,6 +32,16 @@ class DistributorsController extends Controller
         $request->session()->put('result', 'Created successfully!');
         return redirect()->route('distributors::index');
 
+    }
+
+    public function storeAjax(DistributorStoreRequest $request) {
+        $distributor = new Distributors($request->all());
+        $distributor->save();
+
+        $newDistributor = new Distributors();
+        $distributors = Distributors::all();
+        return view('distributors.list',
+            ['distributors' => $distributors]);
     }
 
     public function show($id)
